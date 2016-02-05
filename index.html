@@ -29,6 +29,7 @@
       <main>
         <div class="welcome-block">
           <img src="img/img-welcomeheading.png" alt="Sedona Image" width="458" height="352" class="index-image">
+          <img src="img/bg-welcomeblock-top.svg" alt="Sedona Image Top" class="index-image-top">
         </div>
         <div class="index-about">
           <h1>Седона - небольшой городок в Аризоне,<br>
@@ -103,27 +104,29 @@
           <p>Укажите предполагаемые даты поездки,<br>
           и мы покажем вам лучшие предложения гостиниц в седоне</p>
           <div class="search-block">
-            <div class="search-block-heading"></div>
             <form>
-              <label> Дата заезда:
-                <input type="date" name="checkin-date" >
-              </label>
-              <label> Дата выезда:
-                <input type="date" name="checkout-date" >
-              </label>
-              <div class="half-width">
-                <label >Взрослые
-                  <input type="number" name="adults">
+              <fieldset>
+                <legend>Поиск гостиницы в Седоне</legend>
+                <label> Дата заезда:
+                  <input type="date" name="checkin-date" >
                 </label>
-              </div>
-              <div class="half-width">
-                <label>Дети
-                  <input type="number" name="kids">
+                <label> Дата выезда:
+                  <input type="date" name="checkout-date" >
                 </label>
-              </div>
-              <div class="buttons">
-                <input type="submit" value="Найти">
-              </div>
+                <div class="half-width">
+                  <label >Взрослые
+                    <input type="number" name="adults">
+                  </label>
+                </div>
+                <div class="half-width">
+                  <label>Дети
+                    <input type="number" name="kids">
+                  </label>
+                </div>
+                <div class="buttons">
+                  <input type="submit" value="Найти">
+                </div>
+              </fieldset>
             </form>
           </div>
         </div>
